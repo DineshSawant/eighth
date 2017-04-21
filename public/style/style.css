@@ -1,0 +1,470 @@
+// Project Name:Eighth.
+// Author:Karan Ghadi.
+// Theme:Eighth Theme.
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	user-select: none;
+	background: #fff;
+	position: relative;
+}
+
+/*common css : start*/
+h2 {
+	font-size: 76px;
+	color: #fff;
+	font-family: 'Old Standard TT', serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 84px;
+	font-style: italic;
+}
+h2 span {
+	font-size: 46px;
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	line-height: 46px;
+	margin-bottom: 30px;
+	font-style: normal;
+}
+h3 {
+	font-family: 'Old Standard TT', serif;
+	font-size: 48px;
+	color: #111;
+	font-weight: 900;
+}
+h6 {
+	font-family: 'Old Standard TT', serif;
+	font-size: 20px;
+	margin-bottom: 18px;
+	color: #de761c;
+	font-weight: 900;
+}
+.btn-default {
+	background: #de761c;
+	color: #fff;
+	border: 0;
+	font-size: 16px;
+	padding: 10px 32px;
+	border-radius: 6px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	transition: 0.5s all;
+}
+.btn-default:hover, .btn-default:focus, .btn-default.active, .btn-default:active, .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover {
+	background: #fff;
+	color: #de761c;
+	transition: 0.5s all;
+}
+
+/*common css : End*/
+
+/*nav css : start*/
+.navbar-default {
+	background-color: #fff;
+	border: none;
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+.navbar-brand {
+	height: auto;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #000000;
+	font-size: 17px;
+	padding: 48px 15px;
+}
+.navbar-default .navbar-nav>li:last-child>a {
+	padding-right: 0px;
+}
+
+/*nav css : end*/
+
+/*banner start*/
+.banner1 {
+	background: url(../images/banners/banner1.jpg) no-repeat;
+	background-size: cover;
+}
+.banners  .details {
+	position: absolute;
+	top: 35%;
+	transform: translate(-50%);
+	left: 50%;
+	text-align: center;
+}
+.owl-nav span {
+	font-size: 45px;
+	font-weight: 800;
+	position: absolute;
+	top: 50%;
+	margin-top: -17px;
+	color: #de761c;
+}
+.owl-nav .disabled span {
+	color: #fff;
+}
+.owl-prev span {
+	left: 50px;
+}
+.owl-next span {
+	right: 50px;
+}
+
+/*banner end*/
+
+/*footer starts*/
+footer {
+	background: #561b0b;
+	padding: 60px 0 25px;
+	text-align: center;
+	color: #f3a18a;
+}
+footer .sitemap {
+	text-align: center;
+}
+footer .sitemap ul li, footer .social-icons ul li {
+	display: inline-block;
+	margin: 0 15px;
+}
+footer .sitemap ul li a {
+	color: #f3a18a;
+	f
+}
+footer .location {
+	margin: 33px 0;
+}
+footer .social-icons {
+	margin-bottom: 45px;
+}
+footer .social-icons ul li a {
+	color: #fff;
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	display: inline-block;
+	line-height: 45px;
+	font-size: 17px;
+}
+.top-footer {
+	border-bottom: 1px solid #7f311c;
+	margin-bottom: 30px;
+}
+.bottom-footer p a {
+	color: #de761c;
+}
+
+/*footer ends*/
+
+/*about-us start*/
+.about-us {
+	background: url(../images/about-bg.jpg) no-repeat center center;
+	background-size: cover;
+	height: 538px;
+	position: relative;
+	text-align: left;
+}
+.about-us .container {
+	position: relative;
+	height: 546px;
+}
+.about-us .anurita-ghoshal {
+	position: absolute;
+	bottom: -2px;
+	right: 155px;
+	z-index: 9;
+}
+.about-us .details {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.about-us .details p {
+	line-height: 26px;
+	margin: 20px 0;
+}
+.about-us img {
+	margin: 0 0 10px 5px;
+	display: block;
+}
+
+/*about-us end*/
+
+/*course-details start*/
+.course-details {
+	text-align: center;
+	padding: 50px 0 75px;
+}
+.cooking {
+	text-align: left;
+}
+.cooking .btn-default {
+	background: transparent;
+	color: #de761c;
+	border: 0;
+	font-size: 16px;
+	padding: 10px 0px;
+	border-radius: 6px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	transition: 0.5s all;
+	text-align: left;
+}
+.cooking .btn-default:hover, .cooking .btn-default:focus, .cooking .btn-default.active, .cooking .btn-default:active, .cooking .btn-default.active.focus, .cooking .btn-default.active:focus, .cooking .btn-default.active:hover, .cooking .btn-default:active.focus, .cooking .btn-default:active:focus, .cooking .btn-default:active:hover {
+	background: #fff;
+	color: #de761c;
+	transition: 0.5s all;
+	text-align: left;
+}
+.course-details {
+	position: relative;
+}
+.course-details .details .heading p {
+	margin: 31px auto 41px;
+	width: 650px;
+	line-height: 26px;
+}
+.course-details .details .heading img {
+	padding-bottom: 15px;
+}
+.cooking h5 {
+	font-size: 28px;
+	font-family: 'Old Standard TT', serif;
+	font-weight: 900;
+	color: #111111;
+}
+.cooking .cook-image {
+	margin-bottom: 28px;
+}
+.cooking h5 span {
+	font-size: 24px;
+	font-family: 'Old Standard TT', serif;
+	font-weight: 900;
+	color: #666666;
+	margin: 20px 0;
+	display: inline-block;
+	margin-left: 20px;
+}
+.cooking p {
+	font-size: 16px;
+	color: #666666;
+	margin: 20px 0;
+	line-height: 24px;
+	display: inline-block;
+}
+.cooking  span {
+	font-size: 16px;
+	font-family: 'Old Standard TT', serif;
+	font-weight: 900;
+	color: #111111;
+	display: block;
+}
+
+/*course-details end*/
+
+/*press-and-reviews start*/
+.location {
+	position: relative;
+}
+.press-and-reviews {
+	background: #f1e8df;
+	min-height: 650px;
+}
+.press-logos {
+	padding-top: 60px;
+}
+.press-logos li {
+	display: inline-block;
+	padding: 8px;
+}
+.press-logos .owl-prev span {
+	left: -15px;
+}
+.press-logos .owl-next span {
+	right: -15px;
+}
+.press-logos .owl-carousel .owl-dots {
+	bottom: -20px;
+}
+.cake {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -30px;
+	margin: auto;
+}
+.cake img {
+	margin: 0 auto;
+}
+.candy {
+	position: absolute;
+	right: 0;
+	bottom: -55px;
+	margin: auto;
+}
+.cookies {
+	position: absolute;
+	left: 0px;
+	top: 15px;
+	margin: auto;
+}
+.logos a {
+	display: block;
+	margin-bottom: 10px;
+}
+
+/*press-and-reviews end*/
+
+/*anju start*/
+
+/*18-4-17*/
+.top-banner {
+	position: relative;
+}
+.banner-heading {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.banner-heading h3 {
+	text-align: center;
+	padding-top: 190px;
+	color: #fff;
+}
+.accordian-head {
+	font-size: 16px;
+	font-weight: 500;
+}
+.accordian {
+	font-size: 14px;
+	font-weight: 400;
+}
+.faqs {
+	min-height: 1450px;
+	position: relative;
+}
+.faqs-accordian {
+	padding: 30px 0px;
+}
+.faqs-accordian li {
+	color: #666666;
+	border-bottom: 1px solid #ebebeb;
+	padding: 15px 20px;
+}
+.faqs-accordian span {
+	color: #df7b25;
+}
+.faqs-accordian h5 {
+	line-height: 26px;
+}
+.faqs-accordian h5 span:nth-child(2) {
+	float: right;
+	font-size: 20px;
+}
+.accordian {
+	padding-left: 20px;
+	display: none;
+}
+.faqs-accordian li:first-child .accordian {
+	display: block;
+}
+.sweet {
+	position: absolute;
+	right: 20px;
+	bottom: 30px;
+	margin: auto;
+}
+.contact-us {
+	text-align: center;
+}
+
+/*anju end*/
+
+
+/*side-upper-img*/
+
+ .top-banner img{
+	position: relative;
+	/*z-index: 80;*/
+}
+.side-upper-img .sideimg1{
+	overflow: hidden;
+}
+.side-upper-img .sideimg1 img{
+	position: relative;
+	width: 40%;
+	margin-top: -50px;
+}
+#Anurita-Ghoshal{
+	line-height: 25px;
+	margin-left: 63px;
+}
+.side-upper-img .anuntatext{
+	padding: 2px;
+	font-size: 32px;
+	margin-left: 63px;
+}
+.side-upper-img .linktext{
+	padding-top: 50px;
+	padding-left: 65px;
+
+}
+.imgfb{
+	padding: 2px;
+}
+.side-upper-img .img_galalry .img1{
+  padding-left: 70px;
+  margin-top: 90px;
+  width: 80%;
+}
+.img_galalry2 img{
+	width: 50%;
+	display: inline-block;
+}
+.img_galalry2 .left_img{
+	float: right;
+	width: 50%;
+}
+.nopad{
+	padding: 0;
+}
